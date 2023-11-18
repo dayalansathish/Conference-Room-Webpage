@@ -71,7 +71,8 @@
     align-items: center;
 }
 
-.row{
+.pad{
+  
     padding-top: 60px;
     padding-bottom: 15px;
 }
