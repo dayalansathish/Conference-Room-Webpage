@@ -88,7 +88,7 @@
     position: absolute;
     width: 300px;
     height: 300px;
-    background-color: blue;
+    background-color: rgb(12, 12, 60);
     top: -20px;
     left: -20px;
     transition: 0.5s;
@@ -117,10 +117,224 @@
     transition: 0.5s;
 }
 
+.parent-2{
+    position: relative;
+    width: 300px;
+    height: 300px; margin: auto;
+    
+}
+
+.child-3{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background-color: rgb(132, 132, 212);
+    top: -20px;
+    left: -20px;
+    transition: 0.5s;
+   
+}
+
+.child-4{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    transition: 0.5s;
+}
+
+.col-4 :hover .child-3{
+    top: 20px;
+    left: 20px;
+    transition: 0.5s;
+    
+    
+    
+}
+
+.col-4 :hover .child-4{
+    top: -20px;
+    left: -20px;
+    transition: 0.5s;
+}
+
+.parent-3{
+    position: relative;
+    width: 300px;
+    height: 300px; margin: auto;
+    
+}
+
+.child-5{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background-color: rgb(242, 123, 80);
+    top: -20px;
+    left: -20px;
+    transition: 0.5s;
+   
+}
+
+.child-6{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    transition: 0.5s;
+}
+
+.col-4 :hover .child-5{
+    top: 20px;
+    left: 20px;
+    transition: 0.5s;
+    
+    
+    
+}
+
+.col-4 :hover .child-6{
+    top: -20px;
+    left: -20px;
+    transition: 0.5s;
+}
+
+.parent-4{
+    position: relative;
+    width: 300px;
+    height: 300px; margin: auto;
+    
+}
+
+.child-7{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background-color: rgb(12, 12, 60);
+    top: -20px;
+    left: -20px;
+    transition: 0.5s;
+   
+}
+
+.child-8{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    transition: 0.5s;
+}
+
+.col-4 :hover .child-7{
+    top: 20px;
+    left: 20px;
+    transition: 0.5s;
+    
+    
+    
+}
+
+.col-4 :hover .child-8{
+    top: -20px;
+    left: -20px;
+    transition: 0.5s;
+}
+
+
+.parent-5{
+    position: relative;
+    width: 300px;
+    height: 300px; margin: auto;
+    
+}
+
+.child-9{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background-color: rgb(132, 132, 212);
+    top: -20px;
+    left: -20px;
+    transition: 0.5s;
+   
+}
+
+.child-10{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    transition: 0.5s;
+}
+
+.col-4 :hover .child-9{
+    top: 20px;
+    left: 20px;
+    transition: 0.5s;
+    
+    
+    
+}
+
+.col-4 :hover .child-10{
+    top: -20px;
+    left: -20px;
+    transition: 0.5s;
+}
+
+.parent-6{
+    position: relative;
+    width: 300px;
+    height: 300px; margin: auto;
+    
+}
+
+.child-11{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background-color: rgb(242, 123, 80);
+    top: -20px;
+    left: -20px;
+    transition: 0.5s;
+   
+}
+
+.child-12{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    transition: 0.5s;
+}
+
+.col-4 :hover .child-11{
+    top: 20px;
+    left: 20px;
+    transition: 0.5s;
+    
+    
+    
+}
+
+.col-4 :hover .child-12{
+    top: -20px;
+    left: -20px;
+    transition: 0.5s;
+}
+
+.team{
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.manager{
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    color: rgb(115, 115, 183);
+}
+
+
 
 .bg{
     width: 100%;
-    height: 600px;
+    height: 650px;
     background-image: url(bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -142,7 +356,7 @@
     position: absolute;
     top: 0;
     width: 100%;
-    height: 600px;
+    height: 650px;
     background-color: rgb(112, 112, 242, 0.8);
     
 }
@@ -153,12 +367,28 @@
     letter-spacing: 5px;
 }
 
+.img{
+    position: absolute;
+    bottom: 10px;
+    left: 58%;
+}
+
+.orange{
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    bottom: -15px;
+    left: 60%;
+    background-color: rgb(255, 141, 99);
+}
+
 /* .display{
     display: flex;
     justify-content: center;
     align-items: center;
 } */
 
-.width{
+/* .width{
     height: 500px;
-}
+} */
+
