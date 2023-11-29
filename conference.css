@@ -382,13 +382,65 @@
     background-color: rgb(255, 141, 99);
 }
 
-/* .display{
+.style{
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 5px;
+    color: rgb(112, 112, 242);
+}
+
+
+.widget{
+    padding: 40px;
+    margin-bottom: 35px;
+    background-color: rgb(246, 255, 246);
+    text-align: center;
+}
+
+.color{
+    color:  rgb(112, 112, 242);   
+}
+
+.card-wrap{
+    margin: 95px 0px 95px;
+    padding: 0px 35px 0px 70px;
+    
+   
+}
+
+.bc{
+    background-color: rgb(246, 255, 246);
+}
+
+.pic{
+    position: relative;
+}
+
+.circle{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    top: -20px;
+    left: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
-} */
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
 
-/* .width{
-    height: 500px;
-} */
+.image{
+    transition: 0.5s;
+    
+}
 
+
+
+
+.col-3 :hover .image{
+    transform: scale(1.1) rotate(10deg);
+    
+} 
